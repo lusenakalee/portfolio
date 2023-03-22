@@ -17,15 +17,15 @@ const AboutCounter = () => {
 				/>
 
 				<CounterItem
-					title="Stars on GitHub"
+					title="Individuals"
 					counter={<span id="githubStarsCounter" />}
 					measurement="k+"
 				/>
 
 				<CounterItem
-					title="Positive feedback"
+					title="Companies"
 					counter={<span id="feedbackCounter" />}
-					measurement="%"
+					measurement="+"
 				/>
 
 				<CounterItem

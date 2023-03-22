@@ -454,6 +454,15 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 8rem;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
 .fixed {
   position: fixed;
 }
@@ -674,6 +683,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .overflow-y-hidden {
   overflow-y: hidden;
+}
+.rounded-full{
+  border-radius: 9999px;
 }
 .rounded-lg {
   border-radius: 0.5rem;

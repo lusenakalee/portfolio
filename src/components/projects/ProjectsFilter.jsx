@@ -1,8 +1,9 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Personal Insurance',
+	'Business Insurance',
+	'Investment',
+	'Personal Pension',
+	'Business Pension',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
@@ -28,7 +29,7 @@ const ProjectsFilter = ({ setSelectProject }) => {
             "
 		>
 			<option value={setSelectProject} className="text-sm sm:text-md">
-				All Projects
+				All Services
 			</option>
 
 			{selectOptions.map((option) => (

@@ -7,48 +7,22 @@ import NBImage from '../images/brands/nb_gray.png';
 import SamsungImage from '../images/brands/samsung_gray.png';
 import CanonImage from '../images/brands/canon_gray.png';
 import PumaImage from '../images/brands/puma_gray.png';
+import AkiImage from '../images/brands/aki_gray.png';
+import BritamImage from '../images/brands/britam_gray.png';
 
-export const clientsHeading = 'Some of the brands that trust me';
+
+export const clientsHeading = 'Some of the companies that trust me';
 
 export const clientsData = [
 	{
 		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'AKI',
+		img: AkiImage,
 	},
 	{
 		id: 2,
-		title: 'Sony',
-		img: SonyImage,
+		title: 'BRITAM',
+		img: BritamImage,
 	},
-	{
-		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
-	},
-	{
-		id: 4,
-		title: 'FILA',
-		img: FilaImage,
-	},
-	{
-		id: 5,
-		title: 'NB',
-		img: NBImage,
-	},
-	{
-		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
-	},
-	{
-		id: 7,
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
-	},
-];
+
+]

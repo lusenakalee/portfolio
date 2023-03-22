@@ -101,6 +101,17 @@ const ProjectsGrid = () => {
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								division1={project.division1}
+								division2={project.division2}
+								division3={project.division3}
+								division4={project.division4}
+								division5={project.division5}
+								division6={project.division6}
+								division7={project.division7}
+								division8={project.division8}
+								division9={project.division9}
+								division10={project.division10}
+								
 								key={project.id}
 							/>
 					  ))
@@ -110,6 +121,16 @@ const ProjectsGrid = () => {
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								division1={project.division1}
+								division2={project.division2}
+								division3={project.division3}
+								division4={project.division4}
+								division5={project.division5}
+								division6={project.division6}
+								division7={project.division7}
+								division8={project.division8}
+								division9={project.division9}
+								division10={project.division10}
 								key={project.id}
 							/>
 					  ))
@@ -118,6 +139,16 @@ const ProjectsGrid = () => {
 								title={project.title}
 								category={project.category}
 								image={project.img}
+								division1={project.division1}
+								division2={project.division2}
+								division3={project.division3}
+								division4={project.division4}
+								division5={project.division5}
+								division6={project.division6}
+								division7={project.division7}
+								division8={project.division8}
+								division9={project.division9}
+								division10={project.division10}
 								key={project.id}
 							/>
 					  ))}
